@@ -1,0 +1,84 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#tweetForm {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#tweetForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#tweetForm textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+#tweetForm button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#tweets {
+    width: 39%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+}
+
+#tweets h2 {
+    margin-top: 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
